@@ -1,0 +1,64 @@
+/*This is just temporary color, I have to check at a hospital for this*/
+body{
+    background: #29d6d0;
+}
+/*Again, I'm just fucking around here*/
+.header{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.center{
+    display: flex;
+    gap: 20px
+}
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 65vh;
+}
+.lrc, .rrl{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.bobox{
+    width: 85%;
+    height: 375px;
+    background: #eee;
+    border: 5px solid black;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Ann{
+    letter-spacing: 2px;
+}
+
+.bibox{
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+.footer{
+    height: 200px;
+}
+/*idk, I might just grid this since I have to make 2 new boxes for this*/
+.fobox{
+    display: flex;
+    justify-content: center;
+}
+.fibox{
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 50px;
+    width: 700px;
+    height: 60px;
+    text-align: center;
+    font-size: x-large;
+}
