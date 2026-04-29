@@ -1,5 +1,6 @@
 // I actually made it work, holy fuck 
 document.addEventListener("DOMContentLoaded", () => {
+    //oh yeah, I forgot you, I'll clean you tomorrow
     document.getElementById("csa").innerHTML =  "<p>Current Scheduled Appointment: 10:00 AM - 11:00 AM </p>";
     
     const receivingBox = document.getElementById("receivingBox");
