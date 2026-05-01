@@ -1,19 +1,35 @@
-/*This is just temporary color, I have to check at a hospital for this*/
 body{
-    background: #29d6d0;
+    background-image: url(stock-hosp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
 }
-/*Again, I'm just fucking around here*/
+
 .header{
+    height: 120px;
+    overflow: hidden;
     background-color: red;
-    display: flex;
-    justify-content: space-between;
+
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+
     align-items: center;
     width: 100%;
 }
+
+.left{
+    justify-self: start;
+    margin-left: 75px;
+}
+
 .center{
     display: flex;
-    gap: 20px
+    gap: 20px;
+
+    justify-self: center;
+    font-size: larger;
 }
+
 .body{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -37,13 +53,16 @@ body{
 }
 .Ann{
     letter-spacing: 2px;
+    margin-top: 18px;
+    font-size: 48px;
 }
 
 .bibox{
     width: 250px;
     height: 100px;
     text-align: center;
-    font-size: 50px;
+    font-size: 110px;
+    margin-top: -150px
 }
 .footer{
     height: 200px;
@@ -61,4 +80,7 @@ body{
     height: 60px;
     text-align: center;
     font-size: x-large;
+}
+#csa{
+    margin-top: 17px
 }
