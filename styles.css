@@ -67,7 +67,6 @@ body{
 .footer{
     height: 200px;
 }
-/*idk, I might just grid this since I have to make 2 new boxes for this*/
 .fobox{
     display: flex;
     justify-content: center;
